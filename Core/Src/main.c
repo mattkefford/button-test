@@ -94,7 +94,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   uint8_t numberOfPresses = 0;
-  uint8_t dummy = 0;
+  //uint8_t dummy = 0;
 
   /* USER CODE END 2 */
 
@@ -106,7 +106,7 @@ int main(void)
     {
        numberOfPresses = button_get_press_count();
 
-       dummy = numberOfPresses;
+       //dummy = numberOfPresses;
     }
     /* USER CODE END WHILE */
 
