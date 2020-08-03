@@ -19,11 +19,10 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "button.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "button.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -109,7 +108,7 @@ int main(void)
 
        dummy = numberOfPresses;
     }
-     /* USER CODE END WHILE */
+    /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
   }
