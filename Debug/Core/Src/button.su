@@ -1,0 +1,4 @@
+button.c:33:9:button_has_event	4	static
+button.c:38:9:button_get_press_count	4	static
+button.c:44:6:HAL_GPIO_EXTI_Callback	16	static
+button.c:62:6:HAL_TIM_PeriodElapsedCallback	16	static
