@@ -23,6 +23,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "button.h"
+#include "version.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -44,7 +45,7 @@ TIM_HandleTypeDef htim7;
 TIM_HandleTypeDef htim16;
 
 /* USER CODE BEGIN PV */
-
+uint8_t versionBuffer[100] = {0};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -95,6 +96,9 @@ int main(void)
 
   uint8_t numberOfPresses = 0;
   //uint8_t dummy = 0;
+
+
+  version_get_info(versionBuffer, sizeof(versionBuffer)/sizeof(versionBuffer[0]));
 
   /* USER CODE END 2 */
 
